@@ -210,3 +210,108 @@ h1 span {
     width: 219px;
     height: 222px;
 }
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 768px;
+        grid-template-columns: repeat(2, 327px);
+        grid-template-rows: repeat(6, auto);
+    }
+
+    .grid_a {
+        height: 324px;
+        grid-column: span 2;
+        grid-row: 1;
+        padding: 2rem;
+    }
+    h1 {
+        font-size: 3.375rem;
+        padding: 0 5rem;
+    }
+    .grid_b {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        height: 247px;
+        padding: 1rem 19px ;
+        overflow: hidden;
+    }
+
+    .grid_b h2 {
+        padding: 1.5rem 4rem 0 0;
+        font-size: 1.75rem;
+    }
+
+    .grid_c {
+        height: 247px;
+        padding-left: 1.5rem;
+    }
+    .grid_c h2 {
+        font-size: 1.75rem;
+    }
+
+    .grid_d {
+        grid-column: span 2;
+        grid-row: 3;
+        height: 496.82px;
+        padding: 1rem 9rem;
+    }
+    .grid_d h2 {
+        font-size: 1.75rem;
+    }
+
+    .grid_d img {
+        width: 357.3px;
+        height: 318.82px;
+    }
+    .grid_e {
+        grid-column: span 2;
+        grid-row: 4;
+        height: 246px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem 4rem;
+    }
+
+    .grid_e h2 {
+        font-size: 2.25rem;
+        text-align: left;
+        padding: 0 2rem;
+    }
+
+    .grid_f{
+        grid-column: span 2;
+        grid-row: 5;
+        height: 131px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+    }
+
+    .grid_f h2 {
+        font-size: 3.375rem;
+    }
+
+    .grid_g {
+        height: 354.5px;
+        padding: 4rem 2rem;
+
+    }
+
+    .grid_g h2 {
+        font-size: 2.25rem;
+        
+    }
+
+    .grid_h {
+        height: 354.5px;
+        padding: 0 2rem;
+    }
+
+    .grid_h h2 {
+        font-size: 2.25rem;
+        
+    }
+}
